@@ -10,14 +10,27 @@
 		209E7B8A6791AF202951FBC1 /* Pods_vismoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EB8F128668E59D2EED7D82 /* Pods_vismoneyTests.framework */; };
 		53B893149B967805AD6E5C38 /* Pods_vismoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AF22E99A8E5DEDD9678846 /* Pods_vismoneyUITests.framework */; };
 		A7C6AE4D82AF649B6E5F8B53 /* Pods_vismoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72898D8E16C1DCDB15F899FB /* Pods_vismoney.framework */; };
+		D258336F1D9772090085CC68 /* NSEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833621D9772090085CC68 /* NSEClient.swift */; };
+		D25833701D9772090085CC68 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833631D9772090085CC68 /* Account.swift */; };
+		D25833711D9772090085CC68 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833641D9772090085CC68 /* ATM.swift */; };
+		D25833721D9772090085CC68 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833651D9772090085CC68 /* Address.swift */; };
+		D25833731D9772090085CC68 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833661D9772090085CC68 /* Bill.swift */; };
+		D25833741D9772090085CC68 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833671D9772090085CC68 /* Branch.swift */; };
+		D25833751D9772090085CC68 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833681D9772090085CC68 /* Customer.swift */; };
+		D25833761D9772090085CC68 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25833691D9772090085CC68 /* Deposit.swift */; };
+		D25833771D9772090085CC68 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258336A1D9772090085CC68 /* Purchase.swift */; };
+		D25833781D9772090085CC68 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258336B1D9772090085CC68 /* Transfer.swift */; };
+		D25833791D9772090085CC68 /* Withdrawal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258336C1D9772090085CC68 /* Withdrawal.swift */; };
+		D258337A1D9772090085CC68 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258336D1D9772090085CC68 /* Merchant.swift */; };
+		D258337B1D9772090085CC68 /* EnterpriseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258336E1D9772090085CC68 /* EnterpriseRequests.swift */; };
 		D27175031D9733D0007C4315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175021D9733D0007C4315 /* AppDelegate.swift */; };
 		D27175051D9733D0007C4315 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175041D9733D0007C4315 /* FirstViewController.swift */; };
 		D27175071D9733D0007C4315 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175061D9733D0007C4315 /* SecondViewController.swift */; };
 		D271750A1D9733D0007C4315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27175081D9733D0007C4315 /* Main.storyboard */; };
 		D271750C1D9733D0007C4315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D271750B1D9733D0007C4315 /* Assets.xcassets */; };
-		D271750F1D9733D0007C4315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D271750D1D9733D0007C4315 /* LaunchScreen.storyboard */; };
 		D271751A1D9733D0007C4315 /* vismoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175191D9733D0007C4315 /* vismoneyTests.swift */; };
 		D27175251D9733D0007C4315 /* vismoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175241D9733D0007C4315 /* vismoneyUITests.swift */; };
+		D29C853C1D977A8000EA29D3 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C853B1D977A8000EA29D3 /* RestApiManager.swift */; };
 		D2D4D6EF1D975739003D9F3D /* banksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D6EE1D975739003D9F3D /* banksTableViewCell.swift */; };
 		D2D4D6F11D975E8A003D9F3D /* BankLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */; };
 		D2F663CC1D97387000EB7CC7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */; };
@@ -53,13 +66,26 @@
 		7A7F2F0873ACAA013FD2D318 /* Pods-vismoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoneyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EC55EB4BAD81B1489C40E34 /* Pods-vismoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vismoney/Pods-vismoney.debug.xcconfig"; sourceTree = "<group>"; };
 		C2E102349F5A47676217626F /* Pods-vismoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-vismoney/Pods-vismoney.release.xcconfig"; sourceTree = "<group>"; };
+		D25833611D9771FF0085CC68 /* Nessie-iOS-Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nessie-iOS-Wrapper.h"; sourceTree = "<group>"; };
+		D25833621D9772090085CC68 /* NSEClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSEClient.swift; sourceTree = "<group>"; };
+		D25833631D9772090085CC68 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D25833641D9772090085CC68 /* ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		D25833651D9772090085CC68 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		D25833661D9772090085CC68 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		D25833671D9772090085CC68 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		D25833681D9772090085CC68 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		D25833691D9772090085CC68 /* Deposit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		D258336A1D9772090085CC68 /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		D258336B1D9772090085CC68 /* Transfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		D258336C1D9772090085CC68 /* Withdrawal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Withdrawal.swift; sourceTree = "<group>"; };
+		D258336D1D9772090085CC68 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		D258336E1D9772090085CC68 /* EnterpriseRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterpriseRequests.swift; sourceTree = "<group>"; };
 		D27174FF1D9733D0007C4315 /* vismoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vismoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27175021D9733D0007C4315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27175041D9733D0007C4315 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D27175061D9733D0007C4315 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D27175091D9733D0007C4315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D271750B1D9733D0007C4315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D271750E1D9733D0007C4315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27175101D9733D0007C4315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27175151D9733D0007C4315 /* vismoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vismoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27175191D9733D0007C4315 /* vismoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vismoneyTests.swift; sourceTree = "<group>"; };
@@ -67,6 +93,7 @@
 		D27175201D9733D0007C4315 /* vismoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vismoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27175241D9733D0007C4315 /* vismoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vismoneyUITests.swift; sourceTree = "<group>"; };
 		D27175261D9733D0007C4315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29C853B1D977A8000EA29D3 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		D2D4D6EE1D975739003D9F3D /* banksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = banksTableViewCell.swift; sourceTree = "<group>"; };
 		D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankLoginViewController.swift; sourceTree = "<group>"; };
 		D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +180,20 @@
 		D27175011D9733D0007C4315 /* vismoney */ = {
 			isa = PBXGroup;
 			children = (
+				D25833621D9772090085CC68 /* NSEClient.swift */,
+				D25833631D9772090085CC68 /* Account.swift */,
+				D25833641D9772090085CC68 /* ATM.swift */,
+				D25833651D9772090085CC68 /* Address.swift */,
+				D25833661D9772090085CC68 /* Bill.swift */,
+				D25833671D9772090085CC68 /* Branch.swift */,
+				D25833681D9772090085CC68 /* Customer.swift */,
+				D25833691D9772090085CC68 /* Deposit.swift */,
+				D258336A1D9772090085CC68 /* Purchase.swift */,
+				D258336B1D9772090085CC68 /* Transfer.swift */,
+				D258336C1D9772090085CC68 /* Withdrawal.swift */,
+				D258336D1D9772090085CC68 /* Merchant.swift */,
+				D258336E1D9772090085CC68 /* EnterpriseRequests.swift */,
+				D25833611D9771FF0085CC68 /* Nessie-iOS-Wrapper.h */,
 				D2F663CD1D97439D00EB7CC7 /* GoogleService-Info.plist */,
 				D27175021D9733D0007C4315 /* AppDelegate.swift */,
 				D27175041D9733D0007C4315 /* FirstViewController.swift */,
@@ -164,9 +205,9 @@
 				D2F663CF1D97455900EB7CC7 /* IntroViewController.swift */,
 				D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */,
 				D271750B1D9733D0007C4315 /* Assets.xcassets */,
-				D271750D1D9733D0007C4315 /* LaunchScreen.storyboard */,
 				D27175101D9733D0007C4315 /* Info.plist */,
 				D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */,
+				D29C853B1D977A8000EA29D3 /* RestApiManager.swift */,
 			);
 			path = vismoney;
 			sourceTree = "<group>";
@@ -302,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D271750F1D9733D0007C4315 /* LaunchScreen.storyboard in Resources */,
 				D2F663CE1D97439D00EB7CC7 /* GoogleService-Info.plist in Resources */,
 				D271750C1D9733D0007C4315 /* Assets.xcassets in Resources */,
 				D271750A1D9733D0007C4315 /* Main.storyboard in Resources */,
@@ -469,12 +509,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F663D01D97455900EB7CC7 /* IntroViewController.swift in Sources */,
+				D25833701D9772090085CC68 /* Account.swift in Sources */,
+				D25833771D9772090085CC68 /* Purchase.swift in Sources */,
+				D25833721D9772090085CC68 /* Address.swift in Sources */,
+				D25833781D9772090085CC68 /* Transfer.swift in Sources */,
 				D2F663D61D974AB900EB7CC7 /* SetBudgetViewController.swift in Sources */,
+				D25833761D9772090085CC68 /* Deposit.swift in Sources */,
+				D25833731D9772090085CC68 /* Bill.swift in Sources */,
+				D258337A1D9772090085CC68 /* Merchant.swift in Sources */,
 				D2F663D41D974A7800EB7CC7 /* ChooseBankViewController.swift in Sources */,
 				D2F663CC1D97387000EB7CC7 /* LogInViewController.swift in Sources */,
+				D25833791D9772090085CC68 /* Withdrawal.swift in Sources */,
+				D25833741D9772090085CC68 /* Branch.swift in Sources */,
 				D2D4D6F11D975E8A003D9F3D /* BankLoginViewController.swift in Sources */,
+				D25833711D9772090085CC68 /* ATM.swift in Sources */,
 				D27175071D9733D0007C4315 /* SecondViewController.swift in Sources */,
+				D29C853C1D977A8000EA29D3 /* RestApiManager.swift in Sources */,
+				D25833751D9772090085CC68 /* Customer.swift in Sources */,
 				D2D4D6EF1D975739003D9F3D /* banksTableViewCell.swift in Sources */,
+				D258337B1D9772090085CC68 /* EnterpriseRequests.swift in Sources */,
+				D258336F1D9772090085CC68 /* NSEClient.swift in Sources */,
 				D27175031D9733D0007C4315 /* AppDelegate.swift in Sources */,
 				D27175051D9733D0007C4315 /* FirstViewController.swift in Sources */,
 			);
@@ -518,14 +572,6 @@
 				D27175091D9733D0007C4315 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D271750D1D9733D0007C4315 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D271750E1D9733D0007C4315 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

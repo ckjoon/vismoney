@@ -9,7 +9,7 @@
 import UIKit
 
 class ChooseBankViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+
     
     @IBOutlet weak var table: UITableView!
     var logos = [UIImage(named: "c1"),UIImage(named: "ba"),UIImage(named: "chase"),UIImage(named: "citi"),UIImage(named: "wf"),UIImage(named: "pnc"),UIImage(named: "td"),UIImage(named: "delta"),UIImage(named: "usaa")]
@@ -41,6 +41,7 @@ class ChooseBankViewController: UIViewController, UITableViewDataSource, UITable
         cell.logo.image = logos[indexPath.row]
         cell.bank.text = banks[indexPath.row]
         cell.icon.image = icons;
+        
         
         
         return cell
