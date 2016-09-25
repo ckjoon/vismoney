@@ -24,14 +24,14 @@ class BankLoginViewController: UIViewController {
             if let jsonData = data {
                 json = JSON(data: jsonData)
                 print(json.rawString())
-                print(json[0]["_id"].stringValue);
-                print(json[0]["first_name"].stringValue);
-                print(json[0]["last_name"].stringValue);
+                print(json[1]["_id"].stringValue);
+                print(json[1]["first_name"].stringValue);
+                print(json[1]["last_name"].stringValue);
                 let rootref =
                     FIRDatabase.database().reference()
                 var userId = FIRAuth.auth()!.currentUser!.uid
 
-                rootref.child(userId).setValue(["first_name": json[0]["first_name"].stringValue,"last_name": json[0]["last_name"].stringValue,"_id": json[0]["_id"].stringValue])
+                rootref.child(userId).setValue(["first_name": json[1]["first_name"].stringValue,"last_name": json[1]["last_name"].stringValue,"_id": json[1]["_id"].stringValue])
                 
 
 

@@ -18,13 +18,7 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let user = FIRAuth.auth()?.currentUser{
-            self.logoutButton.alpha=1.0
-            self.usernameLabel.text = user.email
-        } else {
-            self.logoutButton.alpha = 0.0
-            self.usernameLabel.text=""
-        }
+        let user = FIRAuth.auth()?.currentUser
 
         // Do any additional setup after loading the view.
     }
@@ -80,8 +74,6 @@ class LogInViewController: UIViewController {
             FIRAuth.auth()?.signInWithEmail(self.emailField.text!, password: self.passwordField.text!, completion: {(user, error) in
                 
                 if error == nil{
-                    self.logoutButton.alpha = 1.0
-                    self.usernameLabel.text = user!.email
                     self.emailField.text=""
                     self.passwordField.text=""
                     self.performSegueWithIdentifier("login", sender: self)

@@ -15,7 +15,7 @@ class ChooseBankViewController: UIViewController, UITableViewDataSource, UITable
     var logos = [UIImage(named: "c1"),UIImage(named: "ba"),UIImage(named: "chase"),UIImage(named: "citi"),UIImage(named: "wf"),UIImage(named: "pnc"),UIImage(named: "td"),UIImage(named: "delta"),UIImage(named: "usaa")]
     
     var banks = ["Capital One", "Bank of America", "Chase", "Citibank", "Wells Fargo", "PNC Bank", "TD Bank", "Delta Community", "USAA"]
-    var icons = UIImage(named: "arrow")
+    var icons = UIImage(named: ">")
     
     override func viewDidLoad() {
         super.viewDidLoad()

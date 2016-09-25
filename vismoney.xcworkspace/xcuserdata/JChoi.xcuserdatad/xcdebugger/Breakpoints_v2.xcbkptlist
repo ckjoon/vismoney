@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vismoney/LogInViewController.swift"
-            timestampString = "496451302.645752"
+            timestampString = "496483107.918345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "createAccount(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,76 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vismoney/LogInViewController.swift"
-            timestampString = "496451703.912948"
+            timestampString = "496483107.918345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "createAccount(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "vismoney/ChooseBankViewController.swift"
-            timestampString = "496461649.688727"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "vismoney/ChooseBankViewController.swift"
-            timestampString = "496461650.468791"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "vismoney/ChooseBankViewController.swift"
-            timestampString = "496471806.647674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "vismoney/ChooseBankViewController.swift"
-            timestampString = "496471806.647674"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -170,7 +106,7 @@
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/Branch.swift"
-                  timestampString = "496477542.596571"
+                  timestampString = "496499261.143513"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -185,7 +121,7 @@
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/Branch.swift"
-                  timestampString = "496477542.596706"
+                  timestampString = "496499261.143628"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -202,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vismoney/SetBudgetViewController.swift"
-            timestampString = "496477229.02934"
+            timestampString = "496499192.836145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
             <Locations>
@@ -218,26 +154,26 @@
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/SetBudgetViewController.swift"
-                  timestampString = "496477542.597389"
+                  timestampString = "496499261.144292"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "78">
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "993">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "vismoney.SetBudgetViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  symbolName = "vismoney.SetBudgetViewController.(viewDidLoad () -&gt; ()).(closure #2)"
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/SetBudgetViewController.swift"
-                  timestampString = "496477542.597502"
+                  timestampString = "496499261.1444"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -250,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vismoney/SetBudgetViewController.swift"
-            timestampString = "496477541.450628"
+            timestampString = "496499192.836145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
             <Locations>
@@ -266,26 +202,26 @@
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/SetBudgetViewController.swift"
-                  timestampString = "496477542.59796"
+                  timestampString = "496499261.145124"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "368">
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1323">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "vismoney.SetBudgetViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  symbolName = "vismoney.SetBudgetViewController.(viewDidLoad () -&gt; ()).(closure #2)"
                   moduleName = "vismoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/JChoi/Desktop/vismoney/vismoney/SetBudgetViewController.swift"
-                  timestampString = "496477542.598081"
+                  timestampString = "496499261.145231"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
                   offsetFromSymbolStart = "2056">
                </Location>
             </Locations>
@@ -294,16 +230,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "vismoney/SetBudgetViewController.swift"
-            timestampString = "496477684.493326"
+            timestampString = "496490521.862542"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "confirmButton(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vismoney/SecondViewController.swift"
+            timestampString = "496499599.106154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
