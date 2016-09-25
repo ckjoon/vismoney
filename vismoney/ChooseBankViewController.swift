@@ -37,7 +37,7 @@ class ChooseBankViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = self.table.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! banksTableViewCell
+        let cell = self.table.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! banksTableViewCell
         cell.logo.image = logos[indexPath.row]
         cell.bank.text = banks[indexPath.row]
         cell.icon.image = icons;
