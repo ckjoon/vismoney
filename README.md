@@ -1,3 +1,5 @@
+#Penny-Wise
+
 ##Inspiration
 Using Penny-Wise, we wish to alleviate the problem of extra-spending while using plastic money (credit and debit cards). Studies have shown that people burn 12%-18% more money when using credit/debit cards. For example, McDonald’s claim that their average ticket is $7 when using credit cards, as compared to $4.5 for cash. When making cash-based payment, people are more cautious since cash is a real & tangible thing that has value attached to it. You see it and process it. Using this app, we aim to make users more alert and informed about their use of money.
 
