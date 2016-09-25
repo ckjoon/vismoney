@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		209E7B8A6791AF202951FBC1 /* Pods_vismoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EB8F128668E59D2EED7D82 /* Pods_vismoneyTests.framework */; };
+		53B893149B967805AD6E5C38 /* Pods_vismoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AF22E99A8E5DEDD9678846 /* Pods_vismoneyUITests.framework */; };
+		A7C6AE4D82AF649B6E5F8B53 /* Pods_vismoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72898D8E16C1DCDB15F899FB /* Pods_vismoney.framework */; };
 		D27175031D9733D0007C4315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175021D9733D0007C4315 /* AppDelegate.swift */; };
 		D27175051D9733D0007C4315 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175041D9733D0007C4315 /* FirstViewController.swift */; };
 		D27175071D9733D0007C4315 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175061D9733D0007C4315 /* SecondViewController.swift */; };
@@ -15,6 +18,13 @@
 		D271750F1D9733D0007C4315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D271750D1D9733D0007C4315 /* LaunchScreen.storyboard */; };
 		D271751A1D9733D0007C4315 /* vismoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175191D9733D0007C4315 /* vismoneyTests.swift */; };
 		D27175251D9733D0007C4315 /* vismoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27175241D9733D0007C4315 /* vismoneyUITests.swift */; };
+		D2D4D6EF1D975739003D9F3D /* banksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D6EE1D975739003D9F3D /* banksTableViewCell.swift */; };
+		D2D4D6F11D975E8A003D9F3D /* BankLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */; };
+		D2F663CC1D97387000EB7CC7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */; };
+		D2F663CE1D97439D00EB7CC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2F663CD1D97439D00EB7CC7 /* GoogleService-Info.plist */; };
+		D2F663D01D97455900EB7CC7 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F663CF1D97455900EB7CC7 /* IntroViewController.swift */; };
+		D2F663D41D974A7800EB7CC7 /* ChooseBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F663D31D974A7800EB7CC7 /* ChooseBankViewController.swift */; };
+		D2F663D61D974AB900EB7CC7 /* SetBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F663D51D974AB900EB7CC7 /* SetBudgetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11FA91AB91F67F8F821E147C /* Pods-vismoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37AF22E99A8E5DEDD9678846 /* Pods_vismoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A45192E4DA2EE60232D83A /* Pods-vismoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoneyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A8382942A2566951BFBF6C8 /* Pods-vismoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoneyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72898D8E16C1DCDB15F899FB /* Pods_vismoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7F2F0873ACAA013FD2D318 /* Pods-vismoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoneyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC55EB4BAD81B1489C40E34 /* Pods-vismoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vismoney/Pods-vismoney.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E102349F5A47676217626F /* Pods-vismoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vismoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-vismoney/Pods-vismoney.release.xcconfig"; sourceTree = "<group>"; };
 		D27174FF1D9733D0007C4315 /* vismoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vismoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27175021D9733D0007C4315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D27175041D9733D0007C4315 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,14 @@
 		D27175201D9733D0007C4315 /* vismoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vismoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27175241D9733D0007C4315 /* vismoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vismoneyUITests.swift; sourceTree = "<group>"; };
 		D27175261D9733D0007C4315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D4D6EE1D975739003D9F3D /* banksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = banksTableViewCell.swift; sourceTree = "<group>"; };
+		D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankLoginViewController.swift; sourceTree = "<group>"; };
+		D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D2F663CD1D97439D00EB7CC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2F663CF1D97455900EB7CC7 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D2F663D31D974A7800EB7CC7 /* ChooseBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseBankViewController.swift; sourceTree = "<group>"; };
+		D2F663D51D974AB900EB7CC7 /* SetBudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBudgetViewController.swift; sourceTree = "<group>"; };
+		E8EB8F128668E59D2EED7D82 /* Pods_vismoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C6AE4D82AF649B6E5F8B53 /* Pods_vismoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209E7B8A6791AF202951FBC1 /* Pods_vismoneyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B893149B967805AD6E5C38 /* Pods_vismoneyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01792C41116AE67370CB5040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EC55EB4BAD81B1489C40E34 /* Pods-vismoney.debug.xcconfig */,
+				C2E102349F5A47676217626F /* Pods-vismoney.release.xcconfig */,
+				11FA91AB91F67F8F821E147C /* Pods-vismoneyTests.debug.xcconfig */,
+				7A7F2F0873ACAA013FD2D318 /* Pods-vismoneyTests.release.xcconfig */,
+				4A8382942A2566951BFBF6C8 /* Pods-vismoneyUITests.debug.xcconfig */,
+				48A45192E4DA2EE60232D83A /* Pods-vismoneyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B50269989FE937386ABAD11A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72898D8E16C1DCDB15F899FB /* Pods_vismoney.framework */,
+				E8EB8F128668E59D2EED7D82 /* Pods_vismoneyTests.framework */,
+				37AF22E99A8E5DEDD9678846 /* Pods_vismoneyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D27174F61D9733D0007C4315 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				D27175181D9733D0007C4315 /* vismoneyTests */,
 				D27175231D9733D0007C4315 /* vismoneyUITests */,
 				D27175001D9733D0007C4315 /* Products */,
+				01792C41116AE67370CB5040 /* Pods */,
+				B50269989FE937386ABAD11A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,20 @@
 		D27175011D9733D0007C4315 /* vismoney */ = {
 			isa = PBXGroup;
 			children = (
+				D2F663CD1D97439D00EB7CC7 /* GoogleService-Info.plist */,
 				D27175021D9733D0007C4315 /* AppDelegate.swift */,
 				D27175041D9733D0007C4315 /* FirstViewController.swift */,
 				D27175061D9733D0007C4315 /* SecondViewController.swift */,
 				D27175081D9733D0007C4315 /* Main.storyboard */,
+				D2D4D6EE1D975739003D9F3D /* banksTableViewCell.swift */,
+				D2F663D51D974AB900EB7CC7 /* SetBudgetViewController.swift */,
+				D2F663D31D974A7800EB7CC7 /* ChooseBankViewController.swift */,
+				D2F663CF1D97455900EB7CC7 /* IntroViewController.swift */,
+				D2F663CB1D97387000EB7CC7 /* LogInViewController.swift */,
 				D271750B1D9733D0007C4315 /* Assets.xcassets */,
 				D271750D1D9733D0007C4315 /* LaunchScreen.storyboard */,
 				D27175101D9733D0007C4315 /* Info.plist */,
+				D2D4D6F01D975E8A003D9F3D /* BankLoginViewController.swift */,
 			);
 			path = vismoney;
 			sourceTree = "<group>";
@@ -135,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27175291D9733D0007C4315 /* Build configuration list for PBXNativeTarget "vismoney" */;
 			buildPhases = (
+				9ED912083894C547FC60B45D /* [CP] Check Pods Manifest.lock */,
 				D27174FB1D9733D0007C4315 /* Sources */,
 				D27174FC1D9733D0007C4315 /* Frameworks */,
 				D27174FD1D9733D0007C4315 /* Resources */,
+				9B08D79861CE590DA7D163B8 /* [CP] Embed Pods Frameworks */,
+				78031123FD5144E5AC19F831 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D271752C1D9733D0007C4315 /* Build configuration list for PBXNativeTarget "vismoneyTests" */;
 			buildPhases = (
+				70EB7233080CF2F43FAD467E /* [CP] Check Pods Manifest.lock */,
 				D27175111D9733D0007C4315 /* Sources */,
 				D27175121D9733D0007C4315 /* Frameworks */,
 				D27175131D9733D0007C4315 /* Resources */,
+				BBDF5A92CEC5529863A49A80 /* [CP] Embed Pods Frameworks */,
+				A111C830210389617B185345 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D271752F1D9733D0007C4315 /* Build configuration list for PBXNativeTarget "vismoneyUITests" */;
 			buildPhases = (
+				E3244535B2AE9FC41E4E7C53 /* [CP] Check Pods Manifest.lock */,
 				D271751C1D9733D0007C4315 /* Sources */,
 				D271751D1D9733D0007C4315 /* Frameworks */,
 				D271751E1D9733D0007C4315 /* Resources */,
+				432D918ED3CDBEF6D956DC88 /* [CP] Embed Pods Frameworks */,
+				FEA976B4E549BA0F40DD0F53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D271750F1D9733D0007C4315 /* LaunchScreen.storyboard in Resources */,
+				D2F663CE1D97439D00EB7CC7 /* GoogleService-Info.plist in Resources */,
 				D271750C1D9733D0007C4315 /* Assets.xcassets in Resources */,
 				D271750A1D9733D0007C4315 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +325,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		432D918ED3CDBEF6D956DC88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70EB7233080CF2F43FAD467E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78031123FD5144E5AC19F831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoney/Pods-vismoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B08D79861CE590DA7D163B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoney/Pods-vismoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED912083894C547FC60B45D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A111C830210389617B185345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDF5A92CEC5529863A49A80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3244535B2AE9FC41E4E7C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA976B4E549BA0F40DD0F53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D27174FB1D9733D0007C4315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F663D01D97455900EB7CC7 /* IntroViewController.swift in Sources */,
+				D2F663D61D974AB900EB7CC7 /* SetBudgetViewController.swift in Sources */,
+				D2F663D41D974A7800EB7CC7 /* ChooseBankViewController.swift in Sources */,
+				D2F663CC1D97387000EB7CC7 /* LogInViewController.swift in Sources */,
+				D2D4D6F11D975E8A003D9F3D /* BankLoginViewController.swift in Sources */,
 				D27175071D9733D0007C4315 /* SecondViewController.swift in Sources */,
+				D2D4D6EF1D975739003D9F3D /* banksTableViewCell.swift in Sources */,
 				D27175031D9733D0007C4315 /* AppDelegate.swift in Sources */,
 				D27175051D9733D0007C4315 /* FirstViewController.swift in Sources */,
 			);
@@ -401,28 +616,33 @@
 		};
 		D271752A1D9733D0007C4315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC55EB4BAD81B1489C40E34 /* Pods-vismoney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vismoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gthack.vismoney;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gthack.vismoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D271752B1D9733D0007C4315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E102349F5A47676217626F /* Pods-vismoney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vismoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gthack.vismoney;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gthack.vismoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		D271752D1D9733D0007C4315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FA91AB91F67F8F821E147C /* Pods-vismoneyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vismoneyTests/Info.plist;
@@ -435,6 +655,7 @@
 		};
 		D271752E1D9733D0007C4315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7F2F0873ACAA013FD2D318 /* Pods-vismoneyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vismoneyTests/Info.plist;
@@ -447,6 +668,7 @@
 		};
 		D27175301D9733D0007C4315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8382942A2566951BFBF6C8 /* Pods-vismoneyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vismoneyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +680,7 @@
 		};
 		D27175311D9733D0007C4315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A45192E4DA2EE60232D83A /* Pods-vismoneyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vismoneyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +709,7 @@
 				D271752B1D9733D0007C4315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D271752C1D9733D0007C4315 /* Build configuration list for PBXNativeTarget "vismoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +718,7 @@
 				D271752E1D9733D0007C4315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D271752F1D9733D0007C4315 /* Build configuration list for PBXNativeTarget "vismoneyUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +727,7 @@
 				D27175311D9733D0007C4315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

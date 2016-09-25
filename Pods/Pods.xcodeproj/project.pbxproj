@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC1E35CB21595A84892C6B5008BD5AD /* Pods-vismoneyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304FDEB6AAF4DE9B04052ED46760538C /* Pods-vismoneyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F1CA40BC2D42F45EF3F9BF2F44725A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		198917FD2E02421C0F0D8A61D21FA2F9 /* Pods-vismoneyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F422990A6B8F1B60A60EB2ADBEE9E06A /* Pods-vismoneyTests-dummy.m */; };
+		3E015E6D5C7CBEE465DB90EAEE2B1019 /* Pods-vismoney-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C799C46E041AC0A4CE8934B9141A16 /* Pods-vismoney-dummy.m */; };
+		508CE4A3E4AC0B9D9B5C2A25DE563A6F /* Pods-vismoneyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 133CAC10D50DE2039F9B62C526266CE8 /* Pods-vismoneyUITests-dummy.m */; };
+		7573876C267587B7795F4ACEC31A2D8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8912C4550C9572CB0785A552CE7AEFCB /* Pods-vismoneyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B452B0F2ED2C516EC094EADAF228A188 /* Pods-vismoneyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D1EE53A29500F929C2E6901DE06F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DA30A76C6CF62A0E9B83E2A13DDD5CD8 /* Pods-vismoney-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BE8559B4A0BB5B215E49D1188DB03C /* Pods-vismoney-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07C9500B4D54B787F6DAE9945CA7F9C9 /* Pods-vismoneyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vismoneyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E04B12BE4A87F9142F6C7C34CF2D342 /* Pods_vismoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1221C3E93F74CB7428A9DBA56AC40E90 /* Pods-vismoney-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vismoney-acknowledgements.plist"; sourceTree = "<group>"; };
+		133CAC10D50DE2039F9B62C526266CE8 /* Pods-vismoneyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vismoneyUITests-dummy.m"; sourceTree = "<group>"; };
+		214C5735229204E42829CA1E73A37209 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A12797D8DFB9E88B60E67DD680870A /* Pods-vismoneyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vismoneyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27BE8559B4A0BB5B215E49D1188DB03C /* Pods-vismoney-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vismoney-umbrella.h"; sourceTree = "<group>"; };
+		304FDEB6AAF4DE9B04052ED46760538C /* Pods-vismoneyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vismoneyTests-umbrella.h"; sourceTree = "<group>"; };
+		35A20E59E47B7F678BBAE77A524B0307 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		369D10129ED2D9B4E205FFD1936D23ED /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4761F87CFBF739E2A4D75031E7F2BDB7 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		55D3EB9CC2466094DD973029676A2472 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		5EA5B501E7F800DF6DE9F2420A62A154 /* Pods-vismoney-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoney-frameworks.sh"; sourceTree = "<group>"; };
+		5EF2A71CBADC68C2C837A8D663FD854B /* Pods-vismoneyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoneyTests-frameworks.sh"; sourceTree = "<group>"; };
+		67BAE9A776C3F88B932EF65D29360537 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		6927ABBA330B9EF42E9F82A1BB04CC96 /* Pods-vismoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoney.release.xcconfig"; sourceTree = "<group>"; };
+		6DA80F28E707D0599C30527A29D87031 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		741B2487E9FCE2F6F31A2A5C7AAF1406 /* Pods-vismoney.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-vismoney.modulemap"; sourceTree = "<group>"; };
+		84A18E823FE9FFD2B93F63C41B39BF56 /* Pods-vismoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84BD8D647882A71DAB08BA112EBE7AB2 /* Pods-vismoneyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vismoneyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8595AE9BC5A4511E0C31F744900ADE7E /* Pods-vismoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85FE976F8F432707A8FC21DF03DFD210 /* Pods-vismoneyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoneyTests-resources.sh"; sourceTree = "<group>"; };
+		8634FD02383E2CADA897BD5981E96A88 /* Pods_vismoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC069397548387740C23F2622DE5B9B /* Pods-vismoneyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-vismoneyUITests.modulemap"; sourceTree = "<group>"; };
+		AC0180DA2C634E56117FD797ADF0BCA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1461B535AF352EA890E078BBE62638A /* Pods-vismoneyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoneyUITests-resources.sh"; sourceTree = "<group>"; };
+		B452B0F2ED2C516EC094EADAF228A188 /* Pods-vismoneyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vismoneyUITests-umbrella.h"; sourceTree = "<group>"; };
+		B481265E0A1035B630C3965819685312 /* Pods-vismoneyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-vismoneyTests.modulemap"; sourceTree = "<group>"; };
+		B6A32F861949121E292401B79123A48E /* Pods-vismoney-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vismoney-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6C799C46E041AC0A4CE8934B9141A16 /* Pods-vismoney-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vismoney-dummy.m"; sourceTree = "<group>"; };
+		B7C01D132807C01A7E512AF2C37A1797 /* Pods-vismoney-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoney-resources.sh"; sourceTree = "<group>"; };
+		C765F70B6D615A1ECA745D1F89F849A2 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		CBF8BEB8B12F20F02D8B65BA28024156 /* Pods-vismoneyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vismoneyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD814EA85AEDCC1F2E048CD14ACC6866 /* Pods-vismoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF8190942E4A1EC4E1159004A3A80AD0 /* Pods-vismoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8867CEFFD1290017854B6F2C1C8A7E /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		E3A69DF5851E9F2FD29E326BD27A2356 /* Pods-vismoneyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vismoneyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E59288EF20C68A4C8EC16454EA87134B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7A564D36A7D9E62CD7CDA67B579F51 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		EBBDE2A501E651F2BDD7103C9E1AA4F7 /* Pods_vismoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vismoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F422990A6B8F1B60A60EB2ADBEE9E06A /* Pods-vismoneyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vismoneyTests-dummy.m"; sourceTree = "<group>"; };
+		F847ABE6512B2018E8ED69364605DE26 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		FA45AFDE47A90CF3A850F7B72A05E19C /* Pods-vismoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vismoney.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198003A680385793477017E59BDC686A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1CA40BC2D42F45EF3F9BF2F44725A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A22639C3AF4E1712BEA4E5215A5A726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7573876C267587B7795F4ACEC31A2D8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7C09F018EADA2A16262AFE9137238D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D1EE53A29500F929C2E6901DE06F7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C31E0233017FB1BFBCB33F7354A2D22 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D281E91283F793E8CA75412349F48963 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		3CD7E1E23ECF34FDF931C0381F479D8C /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				46A8763392E22D8E8B274B0E2D7D1550 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		436814AD526CBEF2976C2C3D6629CACE /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C765F70B6D615A1ECA745D1F89F849A2 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		46A8763392E22D8E8B274B0E2D7D1550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4761F87CFBF739E2A4D75031E7F2BDB7 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C70F7225A55D654CC45856840D1C7EA /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				436814AD526CBEF2976C2C3D6629CACE /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		64D2C7DBA2B6D0DBEF7D768DCE48C89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35A20E59E47B7F678BBAE77A524B0307 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B058AFA7F59DCEA4EE2A2F0AFF298D /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				DF8867CEFFD1290017854B6F2C1C8A7E /* FIRInstanceID.h */,
+				64D2C7DBA2B6D0DBEF7D768DCE48C89F /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		6926ECF7C779A470DCBC96D030CC6A83 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A4C27CD9DB001E80EC21B294BEBEAAE1 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		6A7093A972E338FDCB1503327A5A108F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BAE9A776C3F88B932EF65D29360537 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E9F397AE79C26FBE9C8767EB7C6BF89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C70F7225A55D654CC45856840D1C7EA /* Firebase */,
+				6926ECF7C779A470DCBC96D030CC6A83 /* FirebaseAnalytics */,
+				B975A4AA5B5C2F4A8E3D75B69E5E97DB /* FirebaseAuth */,
+				72FF4AA34B51053F6345C9700A854DCB /* FirebaseDatabase */,
+				67B058AFA7F59DCEA4EE2A2F0AFF298D /* FirebaseInstanceID */,
+				DBFFACE7C9ED8EC5C7CC42F190190BC4 /* GoogleInterchangeUtilities */,
+				A14C6E4BB4CB955E28A2A2AA42AF62F7 /* GoogleNetworkingUtilities */,
+				3CD7E1E23ECF34FDF931C0381F479D8C /* GoogleSymbolUtilities */,
+				2C31E0233017FB1BFBCB33F7354A2D22 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72FF4AA34B51053F6345C9700A854DCB /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6A7093A972E338FDCB1503327A5A108F /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6E9F397AE79C26FBE9C8767EB7C6BF89 /* Pods */,
+				BB2C256F8C20AC76CB2B290D964A46F6 /* Products */,
+				EDBE3FF77758FF9FE2393D588168C156 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D72166401AF2CD7FF344BDEA2859A98 /* Pods-vismoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0180DA2C634E56117FD797ADF0BCA1 /* Info.plist */,
+				B481265E0A1035B630C3965819685312 /* Pods-vismoneyTests.modulemap */,
+				CBF8BEB8B12F20F02D8B65BA28024156 /* Pods-vismoneyTests-acknowledgements.markdown */,
+				84BD8D647882A71DAB08BA112EBE7AB2 /* Pods-vismoneyTests-acknowledgements.plist */,
+				F422990A6B8F1B60A60EB2ADBEE9E06A /* Pods-vismoneyTests-dummy.m */,
+				5EF2A71CBADC68C2C837A8D663FD854B /* Pods-vismoneyTests-frameworks.sh */,
+				85FE976F8F432707A8FC21DF03DFD210 /* Pods-vismoneyTests-resources.sh */,
+				304FDEB6AAF4DE9B04052ED46760538C /* Pods-vismoneyTests-umbrella.h */,
+				84A18E823FE9FFD2B93F63C41B39BF56 /* Pods-vismoneyTests.debug.xcconfig */,
+				CD814EA85AEDCC1F2E048CD14ACC6866 /* Pods-vismoneyTests.release.xcconfig */,
+			);
+			name = "Pods-vismoneyTests";
+			path = "Target Support Files/Pods-vismoneyTests";
+			sourceTree = "<group>";
+		};
+		A14C6E4BB4CB955E28A2A2AA42AF62F7 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A81D21B5302AB8375EEFBF24421919DF /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		A4C27CD9DB001E80EC21B294BEBEAAE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369D10129ED2D9B4E205FFD1936D23ED /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E49B499546589686E163EECC8085DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB7A564D36A7D9E62CD7CDA67B579F51 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A81D21B5302AB8375EEFBF24421919DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D3EB9CC2466094DD973029676A2472 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B975A4AA5B5C2F4A8E3D75B69E5E97DB /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9FEC781F1CE4AE7D7D1DB7D979A87 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		BB2C256F8C20AC76CB2B290D964A46F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E04B12BE4A87F9142F6C7C34CF2D342 /* Pods_vismoney.framework */,
+				8634FD02383E2CADA897BD5981E96A88 /* Pods_vismoneyTests.framework */,
+				EBBDE2A501E651F2BDD7103C9E1AA4F7 /* Pods_vismoneyUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4C1E9289BBDD9A683228CA959FD6DC8 /* Pods-vismoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E59288EF20C68A4C8EC16454EA87134B /* Info.plist */,
+				9DC069397548387740C23F2622DE5B9B /* Pods-vismoneyUITests.modulemap */,
+				21A12797D8DFB9E88B60E67DD680870A /* Pods-vismoneyUITests-acknowledgements.markdown */,
+				07C9500B4D54B787F6DAE9945CA7F9C9 /* Pods-vismoneyUITests-acknowledgements.plist */,
+				133CAC10D50DE2039F9B62C526266CE8 /* Pods-vismoneyUITests-dummy.m */,
+				E3A69DF5851E9F2FD29E326BD27A2356 /* Pods-vismoneyUITests-frameworks.sh */,
+				B1461B535AF352EA890E078BBE62638A /* Pods-vismoneyUITests-resources.sh */,
+				B452B0F2ED2C516EC094EADAF228A188 /* Pods-vismoneyUITests-umbrella.h */,
+				DF8190942E4A1EC4E1159004A3A80AD0 /* Pods-vismoneyUITests.debug.xcconfig */,
+				8595AE9BC5A4511E0C31F744900ADE7E /* Pods-vismoneyUITests.release.xcconfig */,
+			);
+			name = "Pods-vismoneyUITests";
+			path = "Target Support Files/Pods-vismoneyUITests";
+			sourceTree = "<group>";
+		};
+		D281E91283F793E8CA75412349F48963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F847ABE6512B2018E8ED69364605DE26 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBFFACE7C9ED8EC5C7CC42F190190BC4 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A6E49B499546589686E163EECC8085DF /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		DEB9FEC781F1CE4AE7D7D1DB7D979A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA80F28E707D0599C30527A29D87031 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B1D6796A3AA5A2CB9FA8004BEED127 /* Pods-vismoney */ = {
+			isa = PBXGroup;
+			children = (
+				214C5735229204E42829CA1E73A37209 /* Info.plist */,
+				741B2487E9FCE2F6F31A2A5C7AAF1406 /* Pods-vismoney.modulemap */,
+				B6A32F861949121E292401B79123A48E /* Pods-vismoney-acknowledgements.markdown */,
+				1221C3E93F74CB7428A9DBA56AC40E90 /* Pods-vismoney-acknowledgements.plist */,
+				B6C799C46E041AC0A4CE8934B9141A16 /* Pods-vismoney-dummy.m */,
+				5EA5B501E7F800DF6DE9F2420A62A154 /* Pods-vismoney-frameworks.sh */,
+				B7C01D132807C01A7E512AF2C37A1797 /* Pods-vismoney-resources.sh */,
+				27BE8559B4A0BB5B215E49D1188DB03C /* Pods-vismoney-umbrella.h */,
+				FA45AFDE47A90CF3A850F7B72A05E19C /* Pods-vismoney.debug.xcconfig */,
+				6927ABBA330B9EF42E9F82A1BB04CC96 /* Pods-vismoney.release.xcconfig */,
+			);
+			name = "Pods-vismoney";
+			path = "Target Support Files/Pods-vismoney";
+			sourceTree = "<group>";
+		};
+		EDBE3FF77758FF9FE2393D588168C156 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B1D6796A3AA5A2CB9FA8004BEED127 /* Pods-vismoney */,
+				9D72166401AF2CD7FF344BDEA2859A98 /* Pods-vismoneyTests */,
+				C4C1E9289BBDD9A683228CA959FD6DC8 /* Pods-vismoneyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A37F8A9EC99D5DF3C07C694B846C813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912C4550C9572CB0785A552CE7AEFCB /* Pods-vismoneyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF83FC6CD9E4656295D465D176ED5F9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA30A76C6CF62A0E9B83E2A13DDD5CD8 /* Pods-vismoney-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEF12D3D0AA2A482A94254D023BC0F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC1E35CB21595A84892C6B5008BD5AD /* Pods-vismoneyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		149E2926C13617A562B0AF8D3C581D4B /* Pods-vismoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455EF32CEAFF70304FFDDAA02795BE60 /* Build configuration list for PBXNativeTarget "Pods-vismoneyUITests" */;
+			buildPhases = (
+				83F18D9ADE5639CC38033B38A2917694 /* Sources */,
+				EC7C09F018EADA2A16262AFE9137238D /* Frameworks */,
+				8A37F8A9EC99D5DF3C07C694B846C813 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-vismoneyUITests";
+			productName = "Pods-vismoneyUITests";
+			productReference = EBBDE2A501E651F2BDD7103C9E1AA4F7 /* Pods_vismoneyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A322D4AD789D56303306ED5A13FCCD71 /* Pods-vismoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ADBEC883E649A8C0C690409E1E45BD /* Build configuration list for PBXNativeTarget "Pods-vismoneyTests" */;
+			buildPhases = (
+				25AC92BE3F752161FC201D68AE4E801A /* Sources */,
+				6A22639C3AF4E1712BEA4E5215A5A726 /* Frameworks */,
+				FFEF12D3D0AA2A482A94254D023BC0F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-vismoneyTests";
+			productName = "Pods-vismoneyTests";
+			productReference = 8634FD02383E2CADA897BD5981E96A88 /* Pods_vismoneyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4AE673A638634501416B77490EE7FE3 /* Pods-vismoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4DE8CF8067887708D7B167A9E7BB62 /* Build configuration list for PBXNativeTarget "Pods-vismoney" */;
+			buildPhases = (
+				82CFB3EFEBCFA64F1AAE3F214FD52D97 /* Sources */,
+				198003A680385793477017E59BDC686A /* Frameworks */,
+				CF83FC6CD9E4656295D465D176ED5F9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-vismoney";
+			productName = "Pods-vismoney";
+			productReference = 0E04B12BE4A87F9142F6C7C34CF2D342 /* Pods_vismoney.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB2C256F8C20AC76CB2B290D964A46F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4AE673A638634501416B77490EE7FE3 /* Pods-vismoney */,
+				A322D4AD789D56303306ED5A13FCCD71 /* Pods-vismoneyTests */,
+				149E2926C13617A562B0AF8D3C581D4B /* Pods-vismoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25AC92BE3F752161FC201D68AE4E801A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198917FD2E02421C0F0D8A61D21FA2F9 /* Pods-vismoneyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CFB3EFEBCFA64F1AAE3F214FD52D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E015E6D5C7CBEE465DB90EAEE2B1019 /* Pods-vismoney-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18D9ADE5639CC38033B38A2917694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508CE4A3E4AC0B9D9B5C2A25DE563A6F /* Pods-vismoneyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12502753B939E55C23BA765F39714D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6927ABBA330B9EF42E9F82A1BB04CC96 /* Pods-vismoney.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoney/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoney/Pods-vismoney.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoney;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17B56B440B9D4263321E72794DC5037F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8190942E4A1EC4E1159004A3A80AD0 /* Pods-vismoneyUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoneyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoneyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DE8996D7194ABFA6B7F4CFFC6A34FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8595AE9BC5A4511E0C31F744900ADE7E /* Pods-vismoneyUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoneyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoneyUITests/Pods-vismoneyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoneyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F35D44AB650DE262D277E29F3A4BEC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A18E823FE9FFD2B93F63C41B39BF56 /* Pods-vismoneyTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoneyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoneyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8E755D64590387EC57AFD6B82C88685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD814EA85AEDCC1F2E048CD14ACC6866 /* Pods-vismoneyTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoneyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoneyTests/Pods-vismoneyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoneyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9797C05164396E6FE8477B6E96DCD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA45AFDE47A90CF3A850F7B72A05E19C /* Pods-vismoney.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vismoney/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vismoney/Pods-vismoney.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vismoney;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455EF32CEAFF70304FFDDAA02795BE60 /* Build configuration list for PBXNativeTarget "Pods-vismoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B56B440B9D4263321E72794DC5037F /* Debug */,
+				C3DE8996D7194ABFA6B7F4CFFC6A34FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4DE8CF8067887708D7B167A9E7BB62 /* Build configuration list for PBXNativeTarget "Pods-vismoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9797C05164396E6FE8477B6E96DCD32 /* Debug */,
+				12502753B939E55C23BA765F39714D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ADBEC883E649A8C0C690409E1E45BD /* Build configuration list for PBXNativeTarget "Pods-vismoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35D44AB650DE262D277E29F3A4BEC1C /* Debug */,
+				F8E755D64590387EC57AFD6B82C88685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
